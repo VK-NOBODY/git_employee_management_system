@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_employee_management_system/main.cpp" "CMakeFiles/git_employee_management_system.dir/main.cpp.obj" "gcc" "CMakeFiles/git_employee_management_system.dir/main.cpp.obj.d"
+  "H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_employee_management_system/worker_manager.cpp" "CMakeFiles/git_employee_management_system.dir/worker_manager.cpp.obj" "gcc" "CMakeFiles/git_employee_management_system.dir/worker_manager.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

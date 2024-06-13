@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/git_employee_management_system.dir/main.cpp.obj"
   "CMakeFiles/git_employee_management_system.dir/main.cpp.obj.d"
+  "CMakeFiles/git_employee_management_system.dir/worker_manager.cpp.obj"
+  "CMakeFiles/git_employee_management_system.dir/worker_manager.cpp.obj.d"
   "git_employee_management_system.exe"
   "git_employee_management_system.exe.manifest"
   "git_employee_management_system.pdb"

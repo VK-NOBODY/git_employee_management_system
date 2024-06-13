@@ -81,6 +81,12 @@
 		<Unit filename="H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_employee_management_system/main.cpp">
 			<Option target="git_employee_management_system"/>
 		</Unit>
+		<Unit filename="H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_employee_management_system/worker_manager.cpp">
+			<Option target="git_employee_management_system"/>
+		</Unit>
+		<Unit filename="H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_employee_management_system/worker_manager.h">
+			<Option target="git_employee_management_system"/>
+		</Unit>
 		<Unit filename="H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_employee_management_system/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

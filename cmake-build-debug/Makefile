@@ -152,6 +152,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\git_employee_management_system.dir\build.make CMakeFiles/git_employee_management_system.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+worker_manager.obj: worker_manager.cpp.obj
+.PHONY : worker_manager.obj
+
+# target to build an object file
+worker_manager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\git_employee_management_system.dir\build.make CMakeFiles/git_employee_management_system.dir/worker_manager.cpp.obj
+.PHONY : worker_manager.cpp.obj
+
+worker_manager.i: worker_manager.cpp.i
+.PHONY : worker_manager.i
+
+# target to preprocess a source file
+worker_manager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\git_employee_management_system.dir\build.make CMakeFiles/git_employee_management_system.dir/worker_manager.cpp.i
+.PHONY : worker_manager.cpp.i
+
+worker_manager.s: worker_manager.cpp.s
+.PHONY : worker_manager.s
+
+# target to generate assembly for a file
+worker_manager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\git_employee_management_system.dir\build.make CMakeFiles/git_employee_management_system.dir/worker_manager.cpp.s
+.PHONY : worker_manager.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -164,6 +188,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... worker_manager.obj
+	@echo ... worker_manager.i
+	@echo ... worker_manager.s
 .PHONY : help
 
 

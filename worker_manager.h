@@ -2,6 +2,7 @@
 // Created by VULCA on 13/6/2024.
 //
 #pragma once
+
 #include "iostream"
 
 using namespace std;
@@ -14,7 +15,7 @@ public:
 
     void show_menu();
 
-    ~WorkerManager() {
+    virtual ~WorkerManager() {
 
     }
 };

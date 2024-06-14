@@ -24,6 +24,6 @@ public:
     string department_name;
     //部门编号
     int department_id;
-    virtual ~Worker(){
-    }
+//    virtual ~Worker(){
+//    }
 };

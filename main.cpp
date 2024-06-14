@@ -17,19 +17,19 @@ int main() {
 //    worker_boss->show_info();
 //    delete worker_boss;
 //    worker_boss = nullptr;
-    WorkerManager worker_manager;
-    worker_manager.show_menu();
-    cout << "请输入你的选项: " << endl;
     int choice = 0;
     while (true) {
+        WorkerManager worker_manager;
+        worker_manager.show_menu();
+        cout << "请输入你的选项: " << endl;
         cin >> choice;
         switch (choice) {
             case 0:
                 worker_manager.exit_system();
                 return 0;
-//            case 1:
-//                worker_manager.add_worker();
-//                break;
+            case 1:
+                worker_manager.add_employee();
+                break;
 //            case 2:
 //                worker_manager.show_worker();
 //                break;

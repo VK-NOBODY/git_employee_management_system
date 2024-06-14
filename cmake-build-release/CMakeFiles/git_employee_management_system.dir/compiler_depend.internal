@@ -618,6 +618,10 @@ CMakeFiles/git_employee_management_system.dir/manager.cpp.obj
 
 CMakeFiles/git_employee_management_system.dir/worker_manager.cpp.obj
  H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_employee_management_system/worker_manager.cpp
+ H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_employee_management_system/boss.h
+ H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_employee_management_system/general_staff.h
+ H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_employee_management_system/manager.h
+ H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_employee_management_system/worker.h
  H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_employee_management_system/worker_manager.h
  H:/Applications/msys64/mingw64/include/_mingw.h
  H:/Applications/msys64/mingw64/include/_mingw_mac.h

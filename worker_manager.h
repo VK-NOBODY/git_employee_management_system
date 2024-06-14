@@ -15,7 +15,8 @@ public:
 
     void show_menu();
 
-    virtual ~WorkerManager() {
+    void exit_system();
 
+    virtual ~WorkerManager() {
     }
 };

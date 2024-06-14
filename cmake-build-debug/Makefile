@@ -128,6 +128,54 @@ git_employee_management_system/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\git_employee_management_system.dir\build.make CMakeFiles/git_employee_management_system.dir/build
 .PHONY : git_employee_management_system/fast
 
+boss.obj: boss.cpp.obj
+.PHONY : boss.obj
+
+# target to build an object file
+boss.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\git_employee_management_system.dir\build.make CMakeFiles/git_employee_management_system.dir/boss.cpp.obj
+.PHONY : boss.cpp.obj
+
+boss.i: boss.cpp.i
+.PHONY : boss.i
+
+# target to preprocess a source file
+boss.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\git_employee_management_system.dir\build.make CMakeFiles/git_employee_management_system.dir/boss.cpp.i
+.PHONY : boss.cpp.i
+
+boss.s: boss.cpp.s
+.PHONY : boss.s
+
+# target to generate assembly for a file
+boss.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\git_employee_management_system.dir\build.make CMakeFiles/git_employee_management_system.dir/boss.cpp.s
+.PHONY : boss.cpp.s
+
+general_staff.obj: general_staff.cpp.obj
+.PHONY : general_staff.obj
+
+# target to build an object file
+general_staff.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\git_employee_management_system.dir\build.make CMakeFiles/git_employee_management_system.dir/general_staff.cpp.obj
+.PHONY : general_staff.cpp.obj
+
+general_staff.i: general_staff.cpp.i
+.PHONY : general_staff.i
+
+# target to preprocess a source file
+general_staff.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\git_employee_management_system.dir\build.make CMakeFiles/git_employee_management_system.dir/general_staff.cpp.i
+.PHONY : general_staff.cpp.i
+
+general_staff.s: general_staff.cpp.s
+.PHONY : general_staff.s
+
+# target to generate assembly for a file
+general_staff.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\git_employee_management_system.dir\build.make CMakeFiles/git_employee_management_system.dir/general_staff.cpp.s
+.PHONY : general_staff.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -151,6 +199,30 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\git_employee_management_system.dir\build.make CMakeFiles/git_employee_management_system.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+manager.obj: manager.cpp.obj
+.PHONY : manager.obj
+
+# target to build an object file
+manager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\git_employee_management_system.dir\build.make CMakeFiles/git_employee_management_system.dir/manager.cpp.obj
+.PHONY : manager.cpp.obj
+
+manager.i: manager.cpp.i
+.PHONY : manager.i
+
+# target to preprocess a source file
+manager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\git_employee_management_system.dir\build.make CMakeFiles/git_employee_management_system.dir/manager.cpp.i
+.PHONY : manager.cpp.i
+
+manager.s: manager.cpp.s
+.PHONY : manager.s
+
+# target to generate assembly for a file
+manager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\git_employee_management_system.dir\build.make CMakeFiles/git_employee_management_system.dir/manager.cpp.s
+.PHONY : manager.cpp.s
 
 worker_manager.obj: worker_manager.cpp.obj
 .PHONY : worker_manager.obj
@@ -185,9 +257,18 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... git_employee_management_system
+	@echo ... boss.obj
+	@echo ... boss.i
+	@echo ... boss.s
+	@echo ... general_staff.obj
+	@echo ... general_staff.i
+	@echo ... general_staff.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... manager.obj
+	@echo ... manager.i
+	@echo ... manager.s
 	@echo ... worker_manager.obj
 	@echo ... worker_manager.i
 	@echo ... worker_manager.s

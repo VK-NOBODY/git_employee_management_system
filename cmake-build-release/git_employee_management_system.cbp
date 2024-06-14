@@ -78,7 +78,28 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_employee_management_system/boss.cpp">
+			<Option target="git_employee_management_system"/>
+		</Unit>
+		<Unit filename="H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_employee_management_system/boss.h">
+			<Option target="git_employee_management_system"/>
+		</Unit>
+		<Unit filename="H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_employee_management_system/general_staff.cpp">
+			<Option target="git_employee_management_system"/>
+		</Unit>
+		<Unit filename="H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_employee_management_system/general_staff.h">
+			<Option target="git_employee_management_system"/>
+		</Unit>
 		<Unit filename="H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_employee_management_system/main.cpp">
+			<Option target="git_employee_management_system"/>
+		</Unit>
+		<Unit filename="H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_employee_management_system/manager.cpp">
+			<Option target="git_employee_management_system"/>
+		</Unit>
+		<Unit filename="H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_employee_management_system/manager.h">
+			<Option target="git_employee_management_system"/>
+		</Unit>
+		<Unit filename="H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_employee_management_system/worker.h">
 			<Option target="git_employee_management_system"/>
 		</Unit>
 		<Unit filename="H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_employee_management_system/worker_manager.cpp">

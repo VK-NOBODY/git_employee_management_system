@@ -96,21 +96,69 @@ CMakeFiles/git_employee_management_system.dir/worker_manager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/git_employee_management_system.dir/worker_manager.cpp.s"
 	H:\Applications\msys64\mingw64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S H:\Applications\JetBrains\JetBrains_Documents\JetBrains_CLionProjects\git_employee_management_system\worker_manager.cpp -o CMakeFiles\git_employee_management_system.dir\worker_manager.cpp.s
 
+CMakeFiles/git_employee_management_system.dir/general_staff.cpp.obj: CMakeFiles/git_employee_management_system.dir/flags.make
+CMakeFiles/git_employee_management_system.dir/general_staff.cpp.obj: H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_employee_management_system/general_staff.cpp
+CMakeFiles/git_employee_management_system.dir/general_staff.cpp.obj: CMakeFiles/git_employee_management_system.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\Applications\JetBrains\JetBrains_Documents\JetBrains_CLionProjects\git_employee_management_system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/git_employee_management_system.dir/general_staff.cpp.obj"
+	H:\Applications\msys64\mingw64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/git_employee_management_system.dir/general_staff.cpp.obj -MF CMakeFiles\git_employee_management_system.dir\general_staff.cpp.obj.d -o CMakeFiles\git_employee_management_system.dir\general_staff.cpp.obj -c H:\Applications\JetBrains\JetBrains_Documents\JetBrains_CLionProjects\git_employee_management_system\general_staff.cpp
+
+CMakeFiles/git_employee_management_system.dir/general_staff.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/git_employee_management_system.dir/general_staff.cpp.i"
+	H:\Applications\msys64\mingw64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E H:\Applications\JetBrains\JetBrains_Documents\JetBrains_CLionProjects\git_employee_management_system\general_staff.cpp > CMakeFiles\git_employee_management_system.dir\general_staff.cpp.i
+
+CMakeFiles/git_employee_management_system.dir/general_staff.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/git_employee_management_system.dir/general_staff.cpp.s"
+	H:\Applications\msys64\mingw64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S H:\Applications\JetBrains\JetBrains_Documents\JetBrains_CLionProjects\git_employee_management_system\general_staff.cpp -o CMakeFiles\git_employee_management_system.dir\general_staff.cpp.s
+
+CMakeFiles/git_employee_management_system.dir/manager.cpp.obj: CMakeFiles/git_employee_management_system.dir/flags.make
+CMakeFiles/git_employee_management_system.dir/manager.cpp.obj: H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_employee_management_system/manager.cpp
+CMakeFiles/git_employee_management_system.dir/manager.cpp.obj: CMakeFiles/git_employee_management_system.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\Applications\JetBrains\JetBrains_Documents\JetBrains_CLionProjects\git_employee_management_system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/git_employee_management_system.dir/manager.cpp.obj"
+	H:\Applications\msys64\mingw64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/git_employee_management_system.dir/manager.cpp.obj -MF CMakeFiles\git_employee_management_system.dir\manager.cpp.obj.d -o CMakeFiles\git_employee_management_system.dir\manager.cpp.obj -c H:\Applications\JetBrains\JetBrains_Documents\JetBrains_CLionProjects\git_employee_management_system\manager.cpp
+
+CMakeFiles/git_employee_management_system.dir/manager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/git_employee_management_system.dir/manager.cpp.i"
+	H:\Applications\msys64\mingw64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E H:\Applications\JetBrains\JetBrains_Documents\JetBrains_CLionProjects\git_employee_management_system\manager.cpp > CMakeFiles\git_employee_management_system.dir\manager.cpp.i
+
+CMakeFiles/git_employee_management_system.dir/manager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/git_employee_management_system.dir/manager.cpp.s"
+	H:\Applications\msys64\mingw64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S H:\Applications\JetBrains\JetBrains_Documents\JetBrains_CLionProjects\git_employee_management_system\manager.cpp -o CMakeFiles\git_employee_management_system.dir\manager.cpp.s
+
+CMakeFiles/git_employee_management_system.dir/boss.cpp.obj: CMakeFiles/git_employee_management_system.dir/flags.make
+CMakeFiles/git_employee_management_system.dir/boss.cpp.obj: H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_employee_management_system/boss.cpp
+CMakeFiles/git_employee_management_system.dir/boss.cpp.obj: CMakeFiles/git_employee_management_system.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\Applications\JetBrains\JetBrains_Documents\JetBrains_CLionProjects\git_employee_management_system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/git_employee_management_system.dir/boss.cpp.obj"
+	H:\Applications\msys64\mingw64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/git_employee_management_system.dir/boss.cpp.obj -MF CMakeFiles\git_employee_management_system.dir\boss.cpp.obj.d -o CMakeFiles\git_employee_management_system.dir\boss.cpp.obj -c H:\Applications\JetBrains\JetBrains_Documents\JetBrains_CLionProjects\git_employee_management_system\boss.cpp
+
+CMakeFiles/git_employee_management_system.dir/boss.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/git_employee_management_system.dir/boss.cpp.i"
+	H:\Applications\msys64\mingw64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E H:\Applications\JetBrains\JetBrains_Documents\JetBrains_CLionProjects\git_employee_management_system\boss.cpp > CMakeFiles\git_employee_management_system.dir\boss.cpp.i
+
+CMakeFiles/git_employee_management_system.dir/boss.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/git_employee_management_system.dir/boss.cpp.s"
+	H:\Applications\msys64\mingw64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S H:\Applications\JetBrains\JetBrains_Documents\JetBrains_CLionProjects\git_employee_management_system\boss.cpp -o CMakeFiles\git_employee_management_system.dir\boss.cpp.s
+
 # Object files for target git_employee_management_system
 git_employee_management_system_OBJECTS = \
 "CMakeFiles/git_employee_management_system.dir/main.cpp.obj" \
-"CMakeFiles/git_employee_management_system.dir/worker_manager.cpp.obj"
+"CMakeFiles/git_employee_management_system.dir/worker_manager.cpp.obj" \
+"CMakeFiles/git_employee_management_system.dir/general_staff.cpp.obj" \
+"CMakeFiles/git_employee_management_system.dir/manager.cpp.obj" \
+"CMakeFiles/git_employee_management_system.dir/boss.cpp.obj"
 
 # External object files for target git_employee_management_system
 git_employee_management_system_EXTERNAL_OBJECTS =
 
 git_employee_management_system.exe: CMakeFiles/git_employee_management_system.dir/main.cpp.obj
 git_employee_management_system.exe: CMakeFiles/git_employee_management_system.dir/worker_manager.cpp.obj
+git_employee_management_system.exe: CMakeFiles/git_employee_management_system.dir/general_staff.cpp.obj
+git_employee_management_system.exe: CMakeFiles/git_employee_management_system.dir/manager.cpp.obj
+git_employee_management_system.exe: CMakeFiles/git_employee_management_system.dir/boss.cpp.obj
 git_employee_management_system.exe: CMakeFiles/git_employee_management_system.dir/build.make
 git_employee_management_system.exe: CMakeFiles/git_employee_management_system.dir/linkLibs.rsp
 git_employee_management_system.exe: CMakeFiles/git_employee_management_system.dir/objects1.rsp
 git_employee_management_system.exe: CMakeFiles/git_employee_management_system.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=H:\Applications\JetBrains\JetBrains_Documents\JetBrains_CLionProjects\git_employee_management_system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable git_employee_management_system.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=H:\Applications\JetBrains\JetBrains_Documents\JetBrains_CLionProjects\git_employee_management_system\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable git_employee_management_system.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\git_employee_management_system.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

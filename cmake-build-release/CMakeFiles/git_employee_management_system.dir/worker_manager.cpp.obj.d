@@ -148,4 +148,8 @@ CMakeFiles/git_employee_management_system.dir/worker_manager.cpp.obj: \
   H:/Applications/msys64/mingw64/include/c++/13.2.0/bits/basic_ios.tcc \
   H:/Applications/msys64/mingw64/include/c++/13.2.0/bits/ostream.tcc \
   H:/Applications/msys64/mingw64/include/c++/13.2.0/istream \
-  H:/Applications/msys64/mingw64/include/c++/13.2.0/bits/istream.tcc
+  H:/Applications/msys64/mingw64/include/c++/13.2.0/bits/istream.tcc \
+  H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_employee_management_system/worker.h \
+  H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_employee_management_system/general_staff.h \
+  H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_employee_management_system/manager.h \
+  H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_employee_management_system/boss.h

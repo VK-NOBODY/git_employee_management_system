@@ -25,6 +25,4 @@ public:
     //添加职工
     void add_employee();
 
-//    virtual ~WorkerManager() {
-//    }
 };

@@ -39,6 +39,12 @@ public:
     //统计文件中的人数
     int get_employee_count();
 
+    //初始化员工
+    void initialization_employee();
+
+    //显示职工信息
+    void show_employee();
+
     ~WorkerManager();
 
 };

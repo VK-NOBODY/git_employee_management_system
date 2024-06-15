@@ -29,6 +29,10 @@ WorkerManager::WorkerManager() {
     //3.文件存在,数据不为空
     this->employee_count = get_employee_count();
     cout << "职工人数为:" << this->employee_count << endl;
+    this->employee = new Worker *[this->employee_count];
+    this->initialization_employee();
+    this->show_employee();
+    ifs.close();
     return;
 }
 
@@ -144,6 +148,50 @@ int WorkerManager::get_employee_count() {
         ++number;
     }
     return number;
+}
+
+void WorkerManager::initialization_employee() {
+    ifstream ifs;
+    ifs.open(FILE_NAME, ios::in);
+    int worker_id;
+    string worker_name;
+    int department_id;
+    int number = 0;
+    while (ifs >> worker_id && ifs >> worker_name && ifs >> department_id) {
+        Worker *worker = nullptr;
+        switch (department_id) {
+            case 1: {
+                worker = new GeneralStaff(worker_id, worker_name, 1);
+                break;
+            }
+            case 2: {
+                worker = new Manager(worker_id, worker_name, 2);
+                break;
+            }
+            case 3: {
+                worker = new Boss(worker_id, worker_name, 3);
+                break;
+            }
+            default: {
+                cout << "初始化员工列表失败" << endl;
+                break;
+            }
+        }
+        this->employee[number] = worker;
+        ++number;
+
+    }
+    ifs.close();
+}
+
+void WorkerManager::show_employee() {
+    if (this->employee_count == 0) {
+        cout << "当前没有职工信息" << endl;
+        return;
+    }
+    for (int i = 0; i < this->employee_count; ++i) {
+        this->employee[i]->show_info();
+    }
 }
 
 WorkerManager::~WorkerManager() {

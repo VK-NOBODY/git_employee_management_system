@@ -30,9 +30,9 @@ int main() {
             case 1:
                 worker_manager.add_employee();
                 break;
-//            case 2:
-//                worker_manager.show_worker();
-//                break;
+            case 2:
+                worker_manager.show_employee();
+                break;
 //            case 3:
 //                worker_manager.delete_worker();
 //                break;

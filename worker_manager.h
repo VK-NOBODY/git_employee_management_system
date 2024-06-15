@@ -45,6 +45,24 @@ public:
     //显示职工信息
     void show_employee();
 
-    ~WorkerManager();
+    //判斷職工信息是否存在
+    bool is_employee_exist(int temp_worker_id);
 
+    //刪除职工信息
+    void delete_employee();
+
+    //修改职工信息
+    void modify_employee();
+
+    //查找职工信息
+    void find_employee();
+
+    //排序职工信息
+    void sort_employee();
+
+    //清空职工信息
+    void clear_employee();
+
+    //析构函数
+    ~WorkerManager();
 };

@@ -17,9 +17,9 @@ int main() {
 //    worker_boss->show_info();
 //    delete worker_boss;
 //    worker_boss = nullptr;
+    WorkerManager worker_manager;
     int choice = 0;
     while (true) {
-        WorkerManager worker_manager;
         worker_manager.show_menu();
         cout << "请输入你的选项: " << endl;
         cin >> choice;
@@ -33,21 +33,21 @@ int main() {
             case 2:
                 worker_manager.show_employee();
                 break;
-//            case 3:
-//                worker_manager.delete_worker();
-//                break;
-//            case 4:
-//                worker_manager.modify_worker();
-//                break;
-//            case 5:
-//                worker_manager.find_worker();
-//                break;
-//            case 6:
-//                worker_manager.sort_worker();
-//                break;
-//            case 7:
-//                worker_manager.clear_worker();
-//                break;
+            case 3:
+                worker_manager.delete_employee();
+                break;
+            case 4:
+                worker_manager.modify_employee();
+                break;
+            case 5:
+                worker_manager.find_employee();
+                break;
+            case 6:
+                worker_manager.sort_employee();
+                break;
+            case 7:
+                worker_manager.clear_employee();
+                break;
             default:
                 cout << "請輸入正確的選項" << endl;
         }

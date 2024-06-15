@@ -8,11 +8,16 @@
 #include "general_staff.h"
 #include "manager.h"
 #include "boss.h"
+#include "fstream"
+
+#define FILE_NAME "employee_file.txt"
 
 using namespace std;
 
 class WorkerManager {
 public:
+    WorkerManager();
+
     void show_menu();
 
     void exit_system();
@@ -24,5 +29,16 @@ public:
 
     //添加职工
     void add_employee();
+
+    //保存文件
+    void save();
+
+    //判断文件是否为空
+    bool is_file_empty;
+
+    //统计文件中的人数
+    int get_employee_count();
+
+    ~WorkerManager();
 
 };

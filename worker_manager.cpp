@@ -3,6 +3,35 @@
 //
 #include "worker_manager.h"
 
+WorkerManager::WorkerManager() {
+    //1.文件不存在
+    ifstream ifs;
+    ifs.open(FILE_NAME, ios::in);
+    if (!ifs.is_open()) {
+        cout << "文件不存在" << endl;
+        this->employee_count = 0;
+        this->employee = nullptr;
+        this->is_file_empty = true;
+        ifs.close();
+        return;
+    }
+    //2.文件存在,数据为空
+    char ch;
+    ifs >> ch;
+    if (ifs.eof()) {
+        cout << "文件为空" << endl;
+        this->employee_count = 0;
+        this->employee = nullptr;
+        this->is_file_empty = true;
+        ifs.close();
+        return;
+    }
+    //3.文件存在,数据不为空
+    this->employee_count = get_employee_count();
+    cout << "职工人数为:" << this->employee_count << endl;
+    return;
+}
+
 void WorkerManager::show_menu() {
     cout << "********************************************************************************" << endl;
     cout << "*****************************欢迎使用职工管理系统*****************************" << endl;
@@ -18,6 +47,9 @@ void WorkerManager::show_menu() {
 }
 
 void WorkerManager::exit_system() {
+//    ofstream ofs;
+//    ofs.open(FILE_NAME, ios::out);
+//    ofs.close();
     cout << "欢迎下次使用职工管理系统" << endl;
     exit(0);
 }
@@ -76,8 +108,8 @@ void WorkerManager::add_employee() {
         this->employee = new_space;//更改新空间指向
         this->employee_count = new_size;//更新新的职工人数
         cout << "成功添加" << add_number << "名职工" << endl;//提示成功添加了多少名职工
+        this->save();
         system("pause");
-        system("cls");
     } else {
         cout << "输入有误，请重新输入" <<
              endl;
@@ -85,5 +117,36 @@ void WorkerManager::add_employee() {
     }
 }
 
+void WorkerManager::save() {
+    ofstream ofs;
+    ofs.open(FILE_NAME, ios::out);
+    if (!ofs.is_open()) {
+        cout << "文件打开失败" << endl;
+        ofs.close();
+        return;
+    }
+    for (int i = 0; i < this->employee_count; ++i) {
+        ofs << this->employee[i]->worker_id << " " << this->employee[i]->worker_name << " "
+            << this->employee[i]->department_id << endl;
+    }
+    ofs.close();
+    cout << "保存成功" << endl;
+}
+
+int WorkerManager::get_employee_count() {
+    ifstream ifs;
+    ifs.open(FILE_NAME, ios::in);
+    int worker_id;
+    string worker_name;
+    int department_id;
+    int number = 0;
+    while (ifs >> worker_id && ifs >> worker_name && ifs >> department_id) {
+        ++number;
+    }
+    return number;
+}
+
+WorkerManager::~WorkerManager() {
+}
 
 
